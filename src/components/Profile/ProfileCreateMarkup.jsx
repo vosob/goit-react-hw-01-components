@@ -13,7 +13,13 @@ export const ProfileCreateMarkup = ({
   return (
     <div className={css.profile}>
       <div className={css.description}>
-        <img className={css.avatar} src={avatar} width={70} height={70} />
+        <img
+          className={css.avatar}
+          alt=""
+          src={avatar}
+          width={70}
+          height={70}
+        />
         <p className={css.name}>{username}</p>
         <p className={css.tag}>@{tag}</p>
         <p className={css.location}>{location}</p>
